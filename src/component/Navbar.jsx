@@ -55,7 +55,7 @@ const Navbar = () => {
                 <Nav.Link href="/register" className="btn btn-outline-dark ms-2  mb-3">
                     <i className="fa fa-user-plus me-1"></i> Register</Nav.Link>
             </div>
-            <Dropdown >
+            {/* <Dropdown >
       <Dropdown.Toggle variant="success" id="dropdown-basic" className="p">
       <i className="fa fa-shopping-cart me-1"></i> Cart (0)
       </Dropdown.Toggle>
@@ -64,7 +64,7 @@ const Navbar = () => {
         <Dropdown.Item href="#" className="py-4  px-5">Empty(0)</Dropdown.Item>
       
       </Dropdown.Menu>
-    </Dropdown>
+    </Dropdown> */}
             <div className="buttons">
                 <Nav.Link href="/cart" className="btn btn-outline-dark ms-2  mb-3">
                     <i className="fa fa-shopping-cart me-1"></i> Cart (0)
