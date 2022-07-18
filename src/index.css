@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* custom colors  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --bgcolor: #f1f5fd;
+    --primary-color: #6f5de7;
+    --text-color: #828286;
+    --main-text-color: #33333333;
+
+}
+
+html {
+    /* font-size: 62.5%; */
+    font-size: 90%;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: #333333;
+}
+/* ---------------------------------------------------------------------------------nevbar css style start
+                                          ------------------------------------------------------------------------------- */
+
+
+footer{
+  padding: 5rem 0 ;
+  background-color: #182334;
+  color: #fff;
+
+}
+footer h2{
+  color: #fff;
+}
+footer li {
+  list-style:none;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #fff;
+  cursor: pointer;
+  margin:1rem 0 ;
+
+}
+footer li:hover {
+  color: var(--primary-color);
+
+}
+footer .main-hero-para {
+margin: 0;
+}
+
+footer .fontawesome-style{
+  font-size: 2rem;
+  color: var(--primary-color);
+  background-color: transparent;
+  width: 0rem;
+  height: 0rem;
+  margin: 2rem 0;
+  cursor: pointer;
+}
+footer .fontawesome-style:hover{
+  transition: all 1s;
+  animation: rotatefont 1s linear infinite alternate-reverse;
+  color: #fff;
+}
+
+@keyframes rotatefont {
+  0% {
+      transform: scale(0.6);
+  }
+  100% {
+      transform: scale(1.2);
+  }
+}
+  
+/* ---------------------------------------------------------------------------------responsive media queries
+                                          ------------------------------------------------------------------------------- */
+@media (min-width: 1500px){
+  .container,
+   .container-lg,
+   .container-md,
+   .container-sm,
+   .container-xl,
+   .container-xxl{
+   max-width: 1500px !important;
+   }
+}
+@media (min-width: 1400px){
+  .container,
+   .container-lg,
+   .container-md,
+   .container-sm,
+   .container-xl,
+   .container-xxl{
+    max-width: 1400px !important;
+   }
+}
